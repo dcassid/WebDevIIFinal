@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LunchBox Designs</title>
+
+  <!--Links for fonts & css-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+
+<!--icon library - hamburger menu -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+<header>
+    <!-- Top Navigation Menu -->
+  <div class="topnav">
+  <h1 href="home.html" class="active"> LunchBox Design Co</h1>
+  
+  <a href="../svg/lunchboxLogo.svg" class="logo"> LunchBox </a>
+  
+  <a href="../svg/wDIIBckGrnd.svg" class="background">  </a>
+  
+    <!-- Navigation links-->
+    <div id="myLinks">
+       <a href="home.html">Home</a>
+       <a href="signInOut.html">Sign Out</a>
+       <a href="./profiles/userProfile.html">My Profile</a>
+       <a href="about.html">About</a>
+     </div>
+  
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i>
+   </a>
+  </div>
+</header>
+
+  <!--Home Page Specific Content-->
+
+    <h1 class="center">Hello.</h1>
+    <p class="center">What are you looking for today?</p>
+    
+    <div class="center">
+
+      <div  class="center">
+      <div class="pink"><a href="results/resultsWDs.html"><h2>WEB DESIGNER</h2></a></div>
+    </div>
+    <div  class="center">
+      <div class="yellow"><a href="results/resultsWDv.html"><h2>WEB DEVELOPER</h2></a></div>
+    </div>
+    <div  class="center">
+      <div class="green"><a href="results/resultsGD.html"><h2>GRAPHIC DESIGNER</h2></a></div>
+    </div>
+
+    </div>
+
+<div class="top" class="center">
+    <div class="pink" class="one">
+    <a href="results/resultsWDs.html">
+      <h2>Web Designer</h2>
+      <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the
+        user experience aspects of website development rather than software development. Web design used to be focused 
+        on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers 
+        has become ever-increasingly important.</p>
+      </a>
+    </div>
+  </div>
+
+    <div id="one" class="yellow">
+      <a href="results/resultsWDv.html">
+      <h2>Web Developer</h2>
+      <p>A web developer is a programmer who specializes in, or is specifically engaged in, the development of 
+         World Wide Web applications using a client–server model.</p>
+        </a>
+    </div>
+
+    <div id="one" class="green">
+      <a href="results/resultsGD.html">
+      <h2>Graphic Designer</h2>
+      <p>A graphic designer is a professional within the graphic design and graphic arts industry who assembles
+         together images, typography, or motion graphics to create a piece of design.</p>
+    </a>
+    </div>
+    
+    <script>
+        /* Toggle nav menu */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+    </body>
+    
+    <div class="top">
+      <footer class="purple">
+
+        <div id="myLinks">
+          <a href="home.html">Home</a>
+          <a href="signInOut.html">Sign Out</a>
+          <a href="./profiles/userProfile.html">My Profile</a>
+          <a href="about.html">About</a>
+        </div>
+
+        <h4>&copy; <script>
+            document.write(new Date().getFullYear())
+          </script> Cassi Seifert All Rights Reserved</h4>
+
+      </footer>
+    </div>
+
+      </html>

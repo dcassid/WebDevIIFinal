@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LunchBox Designs</title>
+
+  <!--Links for fonts & css-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+
+<!--icon library - hamburger menu -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <h2 href="home.html" class="active"> LunchBox Design Co</h2>
+
+    <!-- Navigation links-->
+    <div id="myLinks">
+      <a href="../home.html">Home</a>
+      <a href="../signInOut.html">Sign Out</a>
+      <a href="../profiles/userProfile.html">My Profile</a>
+      <a href="../about.html">About</a>
+    </div>
+
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i>
+   </a>
+ </div>
+</header>
+
+<body class="center">
+
+
+  <!--results Specific Content-->
+
+    <h1>Web Designer Results</h1>
+
+    <div>
+        <a href="../profiles/wDsProfile.html"> <h1>Option 1</h1></a>
+    </div>
+
+    <div>
+        <a href="../profiles/wDsProfile.html"> <h1>Option 2</h1></a>
+    </div>
+
+    <div>
+        <a href="../profiles/wDsProfile.html"> <h1>Option 3</h1></a>
+    </div>
+ 
+    
+      <script>
+        /* Toggle nav menu */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    </body>
+
+
+ 
+
+
+<footer>
+  <div id="myLinks">
+    <a href="../home.html">Home</a>
+    <a href="../signInOut.html">Sign Out</a>
+    <a href="../profiles/userProfile.html">My Profile</a>
+    <a href="../about.html">About</a>
+  </div>
+
+  <h4>&copy; <script>
+      document.write(new Date().getFullYear())
+    </script> Cassi Seifert All Rights Reserved</h4>
+
+</footer>
+</html>

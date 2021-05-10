@@ -1,0 +1,222 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    height: 80px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    padding-right: 0%;
+    width: 100%;
+  }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+ /* Style navigation menu links */
+ .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: white;
+        display: inline block;
+        position: absolute;
+        right: 15px;
+        top: 0;
+        border-radius: 20px;
+        height: 20px;
+        width: 20px;
+      }
+
+     /*Add a grey background color on mouse-over*/
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: white;
+        color: Black;
+    }
+
+
+
+/*Font Settings*/
+body {
+    letter-spacing: 2px;
+    text-align: center;
+    background-image: url(./svg/wDIIBckGrnd.svg), none;
+}
+
+
+h1 {
+    margin-bottom: 0;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 85px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    font-family: 'Montserrat medium', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+    font-family: 'Montserrat medium', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    letter-spacing: 2px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+
+  .loginInfo {
+    text-align: center;
+    margin-top: 5%;
+
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+     /* Style all font awesome icons */
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  
+  }
+
+    /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .one {
+    width: 100%;
+    }
+
+    .top {
+        margin-top: 23%;
+        border: 0px;
+        width: 100%;
+    }
+
+    /*Background color classes*/
+    .blue {
+        background-color: #C7FBFE;
+    }
+    .green {
+        background-color: #C3FCEB;
+    }
+    .pink {
+        background-color: #FED6D7;
+    }
+    .purple {
+        background-color: #D3D5FC;
+    }
+    .yellow {
+        background-color: #FEF4C1;
+    }
+
+
+/* Logo */
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 80px;
+    height: 820x;
+    background: url(lunchboxLogo.svg);
+    background-size: 80px 80px;
+  }
+
+  /*Background
+  .background {
+    position:fixed;
+    z-index: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 100%;
+    height: 100%;
+    background: url(wDIIBckGrnd.svg);
+    background-size: 100%;
+}*/
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0%;
+    display: flex;
+}
+
+footer {
+    height:10%;
+    width: 100%;
+}
